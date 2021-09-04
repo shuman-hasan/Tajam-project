@@ -1,0 +1,115 @@
+
+ /* applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {  }
+
+ /* applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .project-bottom-text {
+        padding: 24px 0;
+    }
+    .contact-left a {
+        width: 100%;
+        text-align: center;
+    }
+    .contact-right h4, .contact-left h4 {
+        padding-top: 30px;
+    }
+    .row {
+        text-align: center;
+    }
+    .footer-bootom-right p {
+        margin-right: -29px;
+    }
+    .footer-bootom-left ul li {
+        margin-right: 4px;
+    }
+    .btn-custom {
+        margin-left: 60px;
+    }
+    .footer-top-right input {
+        margin-left: 70px;
+    }
+ }
+
+ /* applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .navbar-nav {
+        background: #000;
+        text-align: center;
+        width: 647px;
+    }
+    .navbar-toggler {
+        background: #fff;
+    }
+    .banner-text {
+        padding-top: 90px;
+        
+    }
+    .banner-text p {
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        padding: 48px 33px 42px 10px;
+    }
+    .banner-text {
+        padding-bottom: 174px;
+        padding-top: 104px;
+    }
+    
+    .about-text h2 {
+        text-align: center;
+    }
+    .about-text p {
+        padding-bottom: 11px;
+    
+    }
+    .about-text a {
+        width: 100%;
+        text-align: center;
+    }
+    #service-part {
+        padding: 45px 0;
+    }
+    .service-text {
+        padding-top: 46px;
+    }
+    .service-top p::after {
+        width: 57px;
+        left: 46%;
+     
+    }
+    .banner-text a {
+        display: inline-block;
+        width: 93%;
+    }
+    .project-bottom-text a {
+        margin-top: 0;
+        width: 50%;
+    }
+    #video-part {
+        padding: 100px 0;
+    }
+    #project {
+        padding: 16px 0;
+    }
+ 
+    .contact-right h4, .contact-left h4 {
+        text-align: center;
+    }
+ }
+
+/* applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  }
+
+ /* applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    .Arrow-left {
+    
+        top: 70%;
+        left: 25%;
+    }
+    .Arrow-right {
+        top: 71%;
+        right: 27%;
+    }
+}
